@@ -38,6 +38,61 @@
                     <ul class="list-group list-group-flush mb-3">
                         <li class="list-group-item">
                             <span class="badge bg-primary me-2">Фронтенд</span>
-                        HTML, CSS, JavaScript, Bootstrap 5
+                            HTML, CSS, JavaScript, Bootstrap 5
                         </li>
+                        <li class="list-group-item">
+                            <span class="badge bg-success me-2">Бэкенд</span>
+                            Python 3, Flask, REST API
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge bg-warning me-2">Хранение</span>
+                            JSON файлы (без базы данных)
+                        </li>
+                        <li class="list-group-item">
+                            <span class="badge bg-info me-2">Контроль версий</span>
+                            Git, GitHub
+                        </li>
+                    </ul>
+                    <div class="alert alert-info" role="alert">
+                        <h6 class="alert-heading">Статус подключения к API серверу:</h6>
+                        <div class="d-flex align-items-center">
+                            <div class="spinner-border spinner-border-sm text-primary me-2" role="status" id="loading-spinner">
+                                <span class="visually-hidden">Загрузка...</span>
+                            </div>
+                            <span id="api-status">Проверка соединения...</span>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-light border" role="alert">
+                        <h6 class="alert-heading">Инструкция по запуску:</h6>
+                        <ol class="mb-0">
+                            <li>Запустите бэкенд: <code>python backend/app.py</code></li>
+                            <li>Откройте этот файл в браузере</li>
+                            <li>Статус API должен измениться на "Работает"</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="card-footertext-muted text-center">
+                    <small>Лабораторная работа №1 | Базовая структура проекта</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer mt-5 py-3 bg-light">
+    <div class="container text-center">
+        <span class="text-muted">
+          @ 2026 Учёт товаров на складе |
+            <a href="#" class="text-decoration-none">Лабораторные работы</a> |
+            <a href="#" class="text-decoration-none">Документация</a>
+        </span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
 </body>
+</html>
