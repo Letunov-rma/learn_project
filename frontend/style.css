@@ -1,0 +1,26 @@
+/*
+Файл: frontend/style.css
+Назначение: Основные стили для приложения учёта товаров
+CSS (Cascading Style Sheets) - язык для оформления HTML документов
+ */
+
+/* =======================
+1. БАЗОВЫЕ СТИЛИ
+Стили, которые применяются ко всей странице
+ */
+*{
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
